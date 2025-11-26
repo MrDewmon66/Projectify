@@ -1,13 +1,15 @@
 import React from "react";
+import NavBar from "../components/NavBar";
 
-class App extends React.Component<any, any> {
+class Home extends React.Component<any, any> {
   render(): React.ReactNode {
     return (
       <>
+        <NavBar />
         <h1 className="">Hello world</h1>
       </>
     );
   }
 }
 
-export default App;
+export default Home;
