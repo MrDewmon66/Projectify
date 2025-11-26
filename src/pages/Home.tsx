@@ -16,7 +16,7 @@ export default function Home() {
         New Project...
       </button>
 
-      {isVisible && <NewProjectForm />}
+      {isVisible && <NewProjectForm onClose={() => setIsVisible(false)} />}
     </>
   );
 }

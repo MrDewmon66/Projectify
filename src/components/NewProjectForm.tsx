@@ -1,4 +1,4 @@
-export default function NewProjectForm() {
+export default function NewProjectForm({ onClose }: { onClose: () => void }) {
   return (
     <>
       <form action="submit" className="flex justify-center">
@@ -8,6 +8,7 @@ export default function NewProjectForm() {
           name="projectName"
           className="border border-solid border-black ml-2"
         />
+        <button onClick={onClose}>Close</button>
       </form>
     </>
   );
