@@ -1,3 +1,5 @@
+function handleSubmit() {}
+
 export default function NewProjectForm({ onClose }: { onClose: () => void }) {
   return (
     <>
